@@ -1,0 +1,71 @@
+<html>
+  <head>
+    <title>Scrap App</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+    <meta content="width=device-width,initial-scale=1" name="viewport" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <ul class="nav-links">
+        <li><a href="/">Home</a></li>
+        <li><a href="/blog.html">Blog</a></li>
+        <li><a href="#" onclick="showAlert('Coming Soon')">Newsletter</a></li>
+        <li><a href="#" onclick="showAlert('Coming Soon')">Socials</a></li>
+      </ul>
+    </nav>
+
+    <div class="container">
+      <div class="card">
+        <div class="card-header">
+          <img
+            src="https://i.pinimg.com/originals/fc/68/f8/fc68f86873c9c661e84ad442cf8fb6cf.gif"
+            alt=""
+          />
+        </div>
+        <div class="input-container">
+          <input type="text" id="url" placeholder="scrapapp-ashy.vercel.app" />
+          <button id="download-lnk">Submit</button>
+        </div>
+        <a
+          href="https://codepen.io/kianoushmahboob/pen/KKPXdrK"
+          target="_blank"
+        >
+          All responsibilities related to this site and its content lie with the
+          respective users. The site encourages the users to only scrap the
+          content of blogger site that belongs to them. Credits to the GIF
+          designer.
+        </a>
+      </div>
+    </div>
+    <div id="alert" class="alert-box">
+      <div class="alert-content">
+        <svg
+          width="24px"
+          height="24px"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          class="alert-icon"
+        >
+          <circle cx="12" cy="12" r="10"></circle>
+          <line x1="12" y1="8" x2="12" y2="12"></line>
+          <line x1="12" y1="16" x2="12" y2="16"></line>
+        </svg>
+        <p id="alert-message"></p>
+      </div>
+      <button id="accept-btn">Accept</button>
+    </div>
+    <script src="download.js"></script>
+    <!-- 
+    <h1>Site Doesn't Exist</h1> -->
+  </body>
+</html>

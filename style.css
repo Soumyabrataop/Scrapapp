@@ -1,0 +1,170 @@
+.card a {
+  color: white;
+  text-decoration: none;
+  opacity: 0.2;
+}
+
+body {
+  background: #000;
+  color: rgb(190, 190, 190);
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background: #111;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1);
+}
+
+.nav-links {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li {
+  display: inline;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: rgb(190, 190, 190);
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #ff5722;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 60px);
+  padding: 30px;
+}
+
+.card {
+  border-radius: 30px;
+  background: #000;
+  width: 350px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.card-header {
+  border-radius: 30px;
+  overflow: hidden;
+}
+
+.card-header img {
+  width: 100%;
+  display: block;
+  border-radius: 30px;
+  pointer-events: none;
+}
+
+.input-container {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
+
+.container input {
+  width: 100%;
+  padding: 12px 60px 12px 15px;
+  border: 2px solid #444;
+  border-radius: 25px;
+  background: #000;
+  color: white;
+  font-size: 16px;
+  outline: none;
+}
+
+.container button {
+  position: absolute;
+  right: 5px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #ff4c4c;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.category {
+  background: #111;
+  box-shadow: 0 0 2rem rgba(19, 20, 23, 0.5);
+  padding: 2rem;
+  margin: 2rem;
+  border-radius: 12px;
+}
+
+.blog-container a {
+  text-decoration: none;
+  color: #ff4c4c;
+}
+
+.blog-container .button {
+  font-family: inherit;
+  display: inline-block;
+  border: 0;
+  outline: 0;
+  padding: 10px 20px 12px;
+  line-height: 1.4;
+  background: #1e1f26;
+  color: #fff;
+  border-radius: 4px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  text-decoration: none;
+  font-weight: normal;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.alert-box {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #555525;
+  color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  max-width: 300px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  display: none;
+}
+
+.alert-content {
+  flex-grow: 1;
+  padding-right: 10px;
+  font-size: 10;
+}
+
+#accept-btn {
+  background: #ff4444;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 10px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.alert-box,
+input,
+button {
+  font-family: "Poppins", sans-serif;
+}

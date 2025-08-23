@@ -1,0 +1,62 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scrap App - Blog</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <ul class="nav-links">
+        <li><a href="/">Home</a></li>
+        <li><a href="/blog.html">Blog</a></li>
+        <li><a href="#" onclick="showAlert('Coming Soon')">Newsletter</a></li>
+        <li><a href="#" onclick="showAlert('Coming Soon')">Socials</a></li>
+      </ul>
+    </nav>
+
+    <div class="blog-container" id="blog-list"></div>
+
+    <script>
+      async function fetchBlogs() {
+        try {
+          const response = await fetch("/api/getblog");
+          const blogs = await response.json();
+
+          const blogList = document.getElementById("blog-list");
+          blogList.innerHTML = "";
+
+          blogs.forEach((blog) => {
+            const blogCard = document.createElement("div");
+            blogCard.classList.add("category");
+
+            const title = document.createElement("h1");
+            const titleLink = document.createElement("a");
+            titleLink.href = blog.url;
+            titleLink.textContent = blog.title;
+            titleLink.target = "_blank";
+            title.appendChild(titleLink);
+
+            const readMore = document.createElement("a");
+            readMore.href = blog.url;
+            readMore.textContent = "Read More";
+            readMore.target = "_blank";
+            readMore.classList.add("button");
+
+            blogCard.appendChild(title);
+            blogCard.appendChild(readMore);
+            blogList.appendChild(blogCard);
+          });
+        } catch (error) {
+          console.error("Error fetching blogs:", error);
+        }
+      }
+
+      fetchBlogs();
+    </script>
+  </body>
+</html>
