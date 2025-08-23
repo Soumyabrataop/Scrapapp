@@ -74,32 +74,87 @@ body {
 .input-container {
   position: relative;
   width: 100%;
-  max-width: 400px;
+  max-width: 600px;
 }
 
 .container input {
   width: 100%;
-  padding: 12px 60px 12px 15px;
+  padding: 18px 140px 18px 25px;
   border: 2px solid #444;
-  border-radius: 25px;
+  border-radius: 30px;
   background: #000;
   color: white;
-  font-size: 16px;
+  font-size: 18px;
   outline: none;
+  min-height: 25px;
+  box-sizing: border-box;
+}
+
+.container input:focus {
+  border-color: #ff4c4c;
+  box-shadow: 0 0 0 2px rgba(255, 76, 76, 0.2);
+}
+
+.container input::placeholder {
+  color: #888;
+  opacity: 1;
 }
 
 .container button {
   position: absolute;
-  right: 5px;
+  right: 10px;
   top: 50%;
   transform: translateY(-50%);
   background: #ff4c4c;
   color: white;
   border: none;
-  padding: 10px 20px;
-  border-radius: 30px;
-  font-size: 14px;
+  padding: 14px 28px;
+  border-radius: 25px;
   cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  white-space: nowrap;
+}
+
+.container button:hover:not(:disabled) {
+  background: #e63946;
+  transform: translateY(-50%) scale(1.05);
+}
+
+.container button:active:not(:disabled) {
+  transform: translateY(-50%) scale(0.98);
+}
+
+/* Loading Spinner Styles */
+.loading-spinner {
+  display: none;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #f3f3f3;
+  border-top: 2px solid #ff4c4c;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin-right: 8px;
+}
+
+.loading-text {
+  display: none;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.button-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .category {
@@ -108,6 +163,23 @@ body {
   padding: 2rem;
   margin: 2rem;
   border-radius: 12px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .input-container {
+    max-width: 90%;
+  }
+  
+  .container input {
+    padding: 16px 120px 16px 20px;
+    font-size: 16px;
+  }
+  
+  .container button {
+    padding: 12px 20px;
+    font-size: 14px;
+  }
 }
 
 .blog-container a {

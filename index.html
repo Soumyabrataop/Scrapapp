@@ -28,8 +28,18 @@
           />
         </div>
         <div class="input-container">
-          <input type="text" id="url" placeholder="scrapapp-ashy.vercel.app" />
-          <button id="download-lnk">Submit</button>
+          <input
+            type="text"
+            id="url"
+            placeholder="Enter your Blogger URL (e.g., https://yourblog.blogspot.com)"
+          />
+          <button id="download-lnk">
+            <div class="button-content">
+              <div class="loading-spinner" id="loading-spinner"></div>
+              <span class="button-text" id="button-text">Submit</span>
+              <span class="loading-text" id="loading-text">Processing...</span>
+            </div>
+          </button>
         </div>
         <a
           href="https://codepen.io/kianoushmahboob/pen/KKPXdrK"

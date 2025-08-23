@@ -20,6 +20,31 @@ acceptButton.onclick = () => {
 };
 
 async function fetchAndDownloadXML() {
+  const loadingSpinner = document.getElementById("loading-spinner");
+  const buttonText = document.getElementById("button-text");
+  const loadingText = document.getElementById("loading-text");
+  const downloadButton = document.getElementById("download-lnk");
+
+  // Show loading state
+  function showLoading() {
+    loadingSpinner.style.display = "block";
+    buttonText.style.display = "none";
+    loadingText.style.display = "block";
+    downloadButton.disabled = true;
+    downloadButton.style.opacity = "0.7";
+    downloadButton.style.cursor = "not-allowed";
+  }
+
+  // Hide loading state
+  function hideLoading() {
+    loadingSpinner.style.display = "none";
+    buttonText.style.display = "block";
+    loadingText.style.display = "none";
+    downloadButton.disabled = false;
+    downloadButton.style.opacity = "1";
+    downloadButton.style.cursor = "pointer";
+  }
+
   try {
     let url = document.getElementById("url").value;
 
@@ -32,6 +57,8 @@ async function fetchAndDownloadXML() {
       showAlert("The URL must use HTTPS.");
       return;
     }
+
+    showLoading();
 
     const rssResponse = await fetch("/api/getrss", {
       method: "POST",
@@ -61,7 +88,10 @@ async function fetchAndDownloadXML() {
     a.click();
     document.body.removeChild(a);
     URL.revokeObjectURL(blobUrl);
+
+    hideLoading();
   } catch (error) {
+    hideLoading();
     showAlert(error.message);
   }
 }
