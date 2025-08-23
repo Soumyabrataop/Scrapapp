@@ -3,7 +3,7 @@ const { fetch } = require("undici");
 module.exports = async (req, res) => {
   try {
     let { url } = req.body;
-    url += "/feeds/posts/default?alt=rss";
+    url += "/feeds/posts/default";
 
     const response = await fetch(url, { redirect: "follow" });
     console.log(

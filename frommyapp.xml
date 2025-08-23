@@ -1,0 +1,891 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="https://www.blogger.com/styles/atom.css" type="text/css"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:gd="http://schemas.google.com/g/2005" xmlns:georss="http://www.georss.org/georss" xmlns:openSearch="http://a9.com/-/spec/opensearchrss/1.0/" xmlns:thr="http://purl.org/syndication/thread/1.0">
+  <id>tag:blogger.com,1999:blog-1107357176977155127.archive</id>
+  <updated>2025-03-07T00:15:23.437-08:00</updated>
+  <title type="text">Themes Giver</title>
+  <author>
+    <name>Admin</name>
+    <uri>https://www.blogger.com/profile/09614081293183296077</uri>
+    <email>noreply@blogger.com</email>
+    <gd:image rel="http://schemas.google.com/g/2005#thumbnail" width="35" height="35" src="//www.blogger.com/img/blogger_logo_round_35.png"/>
+  </author>
+  <generator version="7.00" uri="https://www.blogger.com">Blogger</generator>
+  <entry>
+    <id>tag:blogger.com,1999:blog-1107357176977155127.template</id>
+    <published>2025-03-03T08:53:16.921-08:00</published>
+    <updated>2025-03-07T00:15:23.437-08:00</updated>
+    <category scheme="http://schemas.google.com/g/2005#kind" term="http://schemas.google.com/blogger/2008/kind#settings"/>
+    <title type="text">Template: Themes Giver</title>
+    <content type="text">&lt;?xml version="1.0" encoding="UTF-8" ?&gt;
+      &lt;!DOCTYPE html&gt;
+      &lt;html b:css='false' b:defaultwidgetversion='2' b:layoutsVersion='3' b:responsive='true' b:templateUrl='clean-install.xml' b:templateVersion='0.0.1' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'&gt;&lt;b:attr name='xmlns' value=''/&gt;&lt;b:attr name='xmlns:b' value=''/&gt;&lt;b:attr name='xmlns:expr' value=''/&gt;&lt;b:attr name='xmlns:data' value=''/&gt;&lt;head&gt;&lt;b:if cond='false'&gt;&lt;b:skin&gt;&lt;![CDATA[]]&gt;&lt;/b:skin&gt;&lt;/b:if&gt;&lt;/head&gt;&lt;body&gt;&lt;b:section id='_' maxwidgets='1' showaddelement='false'/&gt;&lt;/body&gt;&lt;/html&gt;</content>
+    <link rel="edit" type="application/atom+xml" href="https://www.blogger.com/feeds/1107357176977155127/template/default"/>
+    <link rel="self" type="application/atom+xml" href="https://www.blogger.com/feeds/1107357176977155127/template/default"/>
+    <link rel="alternate" type="text/html" href="https://www.blogger.com/feeds/1107357176977155127/template/default"/>
+    <author>
+      <name>Admin</name>
+      <uri>https://www.blogger.com/profile/09614081293183296077</uri>
+      <email>noreply@blogger.com</email>
+      <gd:image rel="http://schemas.google.com/g/2005#thumbnail" width="35" height="35" src="//www.blogger.com/img/blogger_logo_round_35.png"/>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-1107357176977155127.settings.BLOG_PUBLISHING_MODE</id>
+    <published>2025-03-03T08:53:16.921-08:00</published>
+    <updated>2025-03-07T00:15:23.437-08:00</updated>
+    <category scheme="http://schemas.google.com/g/2005#kind" term="http://schemas.google.com/blogger/2008/kind#settings"/>
+    <title type="text">BLOG_PUBLISHING_MODE</title>
+    <content type="text">PUBLISH_MODE_BLOGSPOT</content>
+    <link rel="edit" type="application/atom+xml" href="https://www.blogger.com/feeds/1107357176977155127/settings/BLOG_PUBLISHING_MODE"/>
+    <link rel="self" type="application/atom+xml" href="https://www.blogger.com/feeds/1107357176977155127/settings/BLOG_PUBLISHING_MODE"/>
+    <author>
+      <name>Admin</name>
+      <uri>https://www.blogger.com/profile/09614081293183296077</uri>
+      <email>noreply@blogger.com</email>
+      <gd:image rel="http://schemas.google.com/g/2005#thumbnail" width="35" height="35" src="//www.blogger.com/img/blogger_logo_round_35.png"/>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-1107357176977155127.settings.BLOG_ADMIN_PERMISSION</id>
+    <published>2025-03-03T08:53:16.921-08:00</published>
+    <updated>2025-03-07T00:15:23.437-08:00</updated>
+    <category scheme="http://schemas.google.com/g/2005#kind" term="http://schemas.google.com/blogger/2008/kind#settings"/>
+    <title type="text">BLOG_ADMIN_PERMISSION</title>
+    <content type="text">admin@gmail.com</content>
+    <link rel="edit" type="application/atom+xml" href="https://www.blogger.com/feeds/1107357176977155127/settings/BLOG_ADMIN_PERMISSION"/>
+    <link rel="self" type="application/atom+xml" href="https://www.blogger.com/feeds/1107357176977155127/settings/BLOG_ADMIN_PERMISSION"/>
+    <author>
+      <name>Admin</name>
+      <uri>https://www.blogger.com/profile/09614081293183296077</uri>
+      <email>noreply@blogger.com</email>
+      <gd:image rel="http://schemas.google.com/g/2005#thumbnail" width="35" height="35" src="//www.blogger.com/img/blogger_logo_round_35.png"/>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-1107357176977155127.settings.BLOG_ADULT_CONTENT</id>
+    <published>2025-03-03T08:53:16.921-08:00</published>
+    <updated>2025-03-07T00:15:23.437-08:00</updated>
+    <category scheme="http://schemas.google.com/g/2005#kind" term="http://schemas.google.com/blogger/2008/kind#settings"/>
+    <title type="text">BLOG_ADULT_CONTENT</title>
+    <content type="text">false</content>
+    <link rel="edit" type="application/atom+xml" href="https://www.blogger.com/feeds/1107357176977155127/settings/BLOG_ADULT_CONTENT"/>
+    <link rel="self" type="application/atom+xml" href="https://www.blogger.com/feeds/1107357176977155127/settings/BLOG_ADULT_CONTENT"/>
+    <author>
+      <name>Admin</name>
+      <uri>https://www.blogger.com/profile/09614081293183296077</uri>
+      <email>noreply@blogger.com</email>
+      <gd:image rel="http://schemas.google.com/g/2005#thumbnail" width="35" height="35" src="//www.blogger.com/img/blogger_logo_round_35.png"/>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-1107357176977155127.settings.BLOG_ANALYTICS_ACCOUNT_NUMBER</id>
+    <published>2025-03-03T08:53:16.921-08:00</published>
+    <updated>2025-03-07T00:15:23.437-08:00</updated>
+    <category scheme="http://schemas.google.com/g/2005#kind" term="http://schemas.google.com/blogger/2008/kind#settings"/>
+    <title type="text">BLOG_ANALYTICS_ACCOUNT_NUMBER</title>
+    <content type="text"></content>
+    <link rel="edit" type="application/atom+xml" href="https://www.blogger.com/feeds/1107357176977155127/settings/BLOG_ANALYTICS_ACCOUNT_NUMBER"/>
+    <link rel="self" type="application/atom+xml" href="https://www.blogger.com/feeds/1107357176977155127/settings/BLOG_ANALYTICS_ACCOUNT_NUMBER"/>
+    <author>
+      <name>Admin</name>
+      <uri>https://www.blogger.com/profile/09614081293183296077</uri>
+      <email>noreply@blogger.com</email>
+      <gd:image rel="http://schemas.google.com/g/2005#thumbnail" width="35" height="35" src="//www.blogger.com/img/blogger_logo_round_35.png"/>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-1107357176977155127.settings.BLOG_ARCHIVE_DATE_FORMAT</id>
+    <published>2025-03-03T08:53:16.921-08:00</published>
+    <updated>2025-03-07T00:15:23.437-08:00</updated>
+    <category scheme="http://schemas.google.com/g/2005#kind" term="http://schemas.google.com/blogger/2008/kind#settings"/>
+    <title type="text">BLOG_ARCHIVE_DATE_FORMAT</title>
+    <content type="text">9</content>
+    <link rel="edit" type="application/atom+xml" href="https://www.blogger.com/feeds/1107357176977155127/settings/BLOG_ARCHIVE_DATE_FORMAT"/>
+    <link rel="self" type="application/atom+xml" href="https://www.blogger.com/feeds/1107357176977155127/settings/BLOG_ARCHIVE_DATE_FORMAT"/>
+    <author>
+      <name>Admin</name>
+      <uri>https://www.blogger.com/profile/09614081293183296077</uri>
+      <email>noreply@blogger.com</email>
+      <gd:image rel="http://schemas.google.com/g/2005#thumbnail" width="35" height="35" src="//www.blogger.com/img/blogger_logo_round_35.png"/>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-1107357176977155127.settings.BLOG_ARCHIVE_FREQUENCY</id>
+    <published>2025-03-03T08:53:16.921-08:00</published>
+    <updated>2025-03-07T00:15:23.437-08:00</updated>
+    <category scheme="http://schemas.google.com/g/2005#kind" term="http://schemas.google.com/blogger/2008/kind#settings"/>
+    <title type="text">BLOG_ARCHIVE_FREQUENCY</title>
+    <content type="text">MONTHLY</content>
+    <link rel="edit" type="application/atom+xml" href="https://www.blogger.com/feeds/1107357176977155127/settings/BLOG_ARCHIVE_FREQUENCY"/>
+    <link rel="self" type="application/atom+xml" href="https://www.blogger.com/feeds/1107357176977155127/settings/BLOG_ARCHIVE_FREQUENCY"/>
+    <author>
+      <name>Admin</name>
+      <uri>https://www.blogger.com/profile/09614081293183296077</uri>
+      <email>noreply@blogger.com</email>
+      <gd:image rel="http://schemas.google.com/g/2005#thumbnail" width="35" height="35" src="//www.blogger.com/img/blogger_logo_round_35.png"/>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-1107357176977155127.settings.BLOG_AUTHOR_PERMISSION</id>
+    <published>2025-03-03T08:53:16.921-08:00</published>
+    <updated>2025-03-07T00:15:23.437-08:00</updated>
+    <category scheme="http://schemas.google.com/g/2005#kind" term="http://schemas.google.com/blogger/2008/kind#settings"/>
+    <title type="text">BLOG_AUTHOR_PERMISSION</title>
+    <content type="text"></content>
+    <link rel="edit" type="application/atom+xml" href="https://www.blogger.com/feeds/1107357176977155127/settings/BLOG_AUTHOR_PERMISSION"/>
+    <link rel="self" type="application/atom+xml" href="https://www.blogger.com/feeds/1107357176977155127/settings/BLOG_AUTHOR_PERMISSION"/>
+    <author>
+      <name>Admin</name>
+      <uri>https://www.blogger.com/profile/09614081293183296077</uri>
+      <email>noreply@blogger.com</email>
+      <gd:image rel="http://schemas.google.com/g/2005#thumbnail" width="35" height="35" src="//www.blogger.com/img/blogger_logo_round_35.png"/>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-1107357176977155127.settings.BLOG_BY_POST_ARCHIVING</id>
+    <published>2025-03-03T08:53:16.921-08:00</published>
+    <updated>2025-03-07T00:15:23.437-08:00</updated>
+    <category scheme="http://schemas.google.com/g/2005#kind" term="http://schemas.google.com/blogger/2008/kind#settings"/>
+    <title type="text">BLOG_BY_POST_ARCHIVING</title>
+    <content type="text">true</content>
+    <link rel="edit" type="application/atom+xml" href="https://www.blogger.com/feeds/1107357176977155127/settings/BLOG_BY_POST_ARCHIVING"/>
+    <link rel="self" type="application/atom+xml" href="https://www.blogger.com/feeds/1107357176977155127/settings/BLOG_BY_POST_ARCHIVING"/>
+    <author>
+      <name>Admin</name>
+      <uri>https://www.blogger.com/profile/09614081293183296077</uri>
+      <email>noreply@blogger.com</email>
+      <gd:image rel="http://schemas.google.com/g/2005#thumbnail" width="35" height="35" src="//www.blogger.com/img/blogger_logo_round_35.png"/>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-1107357176977155127.settings.BLOG_COMMENT_ACCESS</id>
+    <published>2025-03-03T08:53:16.921-08:00</published>
+    <updated>2025-03-07T00:15:23.437-08:00</updated>
+    <category scheme="http://schemas.google.com/g/2005#kind" term="http://schemas.google.com/blogger/2008/kind#settings"/>
+    <title type="text">BLOG_COMMENT_ACCESS</title>
+    <content type="text">BLOGGERS</content>
+    <link rel="edit" type="application/atom+xml" href="https://www.blogger.com/feeds/1107357176977155127/settings/BLOG_COMMENT_ACCESS"/>
+    <link rel="self" type="application/atom+xml" href="https://www.blogger.com/feeds/1107357176977155127/settings/BLOG_COMMENT_ACCESS"/>
+    <author>
+      <name>Admin</name>
+      <uri>https://www.blogger.com/profile/09614081293183296077</uri>
+      <email>noreply@blogger.com</email>
+      <gd:image rel="http://schemas.google.com/g/2005#thumbnail" width="35" height="35" src="//www.blogger.com/img/blogger_logo_round_35.png"/>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-1107357176977155127.settings.BLOG_COMMENT_CAPTCHA</id>
+    <published>2025-03-03T08:53:16.921-08:00</published>
+    <updated>2025-03-07T00:15:23.437-08:00</updated>
+    <category scheme="http://schemas.google.com/g/2005#kind" term="http://schemas.google.com/blogger/2008/kind#settings"/>
+    <title type="text">BLOG_COMMENT_CAPTCHA</title>
+    <content type="text">true</content>
+    <link rel="edit" type="application/atom+xml" href="https://www.blogger.com/feeds/1107357176977155127/settings/BLOG_COMMENT_CAPTCHA"/>
+    <link rel="self" type="application/atom+xml" href="https://www.blogger.com/feeds/1107357176977155127/settings/BLOG_COMMENT_CAPTCHA"/>
+    <author>
+      <name>Admin</name>
+      <uri>https://www.blogger.com/profile/09614081293183296077</uri>
+      <email>noreply@blogger.com</email>
+      <gd:image rel="http://schemas.google.com/g/2005#thumbnail" width="35" height="35" src="//www.blogger.com/img/blogger_logo_round_35.png"/>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-1107357176977155127.settings.BLOG_COMMENT_EMAIL</id>
+    <published>2025-03-03T08:53:16.921-08:00</published>
+    <updated>2025-03-07T00:15:23.437-08:00</updated>
+    <category scheme="http://schemas.google.com/g/2005#kind" term="http://schemas.google.com/blogger/2008/kind#settings"/>
+    <title type="text">BLOG_COMMENT_EMAIL</title>
+    <content type="text">admin@gmail.com</content>
+    <link rel="edit" type="application/atom+xml" href="https://www.blogger.com/feeds/1107357176977155127/settings/BLOG_COMMENT_EMAIL"/>
+    <link rel="self" type="application/atom+xml" href="https://www.blogger.com/feeds/1107357176977155127/settings/BLOG_COMMENT_EMAIL"/>
+    <author>
+      <name>Admin</name>
+      <uri>https://www.blogger.com/profile/09614081293183296077</uri>
+      <email>noreply@blogger.com</email>
+      <gd:image rel="http://schemas.google.com/g/2005#thumbnail" width="35" height="35" src="//www.blogger.com/img/blogger_logo_round_35.png"/>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-1107357176977155127.settings.BLOG_COMMENT_FEED</id>
+    <published>2025-03-03T08:53:16.921-08:00</published>
+    <updated>2025-03-07T00:15:23.437-08:00</updated>
+    <category scheme="http://schemas.google.com/g/2005#kind" term="http://schemas.google.com/blogger/2008/kind#settings"/>
+    <title type="text">BLOG_COMMENT_FEED</title>
+    <content type="text">FULL</content>
+    <link rel="edit" type="application/atom+xml" href="https://www.blogger.com/feeds/1107357176977155127/settings/BLOG_COMMENT_FEED"/>
+    <link rel="self" type="application/atom+xml" href="https://www.blogger.com/feeds/1107357176977155127/settings/BLOG_COMMENT_FEED"/>
+    <author>
+      <name>Admin</name>
+      <uri>https://www.blogger.com/profile/09614081293183296077</uri>
+      <email>noreply@blogger.com</email>
+      <gd:image rel="http://schemas.google.com/g/2005#thumbnail" width="35" height="35" src="//www.blogger.com/img/blogger_logo_round_35.png"/>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-1107357176977155127.settings.BLOG_COMMENT_FORM_LOCATION</id>
+    <published>2025-03-03T08:53:16.921-08:00</published>
+    <updated>2025-03-07T00:15:23.437-08:00</updated>
+    <category scheme="http://schemas.google.com/g/2005#kind" term="http://schemas.google.com/blogger/2008/kind#settings"/>
+    <title type="text">BLOG_COMMENT_FORM_LOCATION</title>
+    <content type="text">EMBEDDED_IFRAME</content>
+    <link rel="edit" type="application/atom+xml" href="https://www.blogger.com/feeds/1107357176977155127/settings/BLOG_COMMENT_FORM_LOCATION"/>
+    <link rel="self" type="application/atom+xml" href="https://www.blogger.com/feeds/1107357176977155127/settings/BLOG_COMMENT_FORM_LOCATION"/>
+    <author>
+      <name>Admin</name>
+      <uri>https://www.blogger.com/profile/09614081293183296077</uri>
+      <email>noreply@blogger.com</email>
+      <gd:image rel="http://schemas.google.com/g/2005#thumbnail" width="35" height="35" src="//www.blogger.com/img/blogger_logo_round_35.png"/>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-1107357176977155127.settings.BLOG_COMMENT_MESSAGE</id>
+    <published>2025-03-03T08:53:16.921-08:00</published>
+    <updated>2025-03-07T00:15:23.437-08:00</updated>
+    <category scheme="http://schemas.google.com/g/2005#kind" term="http://schemas.google.com/blogger/2008/kind#settings"/>
+    <title type="text">BLOG_COMMENT_MESSAGE</title>
+    <content type="text"></content>
+    <link rel="edit" type="application/atom+xml" href="https://www.blogger.com/feeds/1107357176977155127/settings/BLOG_COMMENT_MESSAGE"/>
+    <link rel="self" type="application/atom+xml" href="https://www.blogger.com/feeds/1107357176977155127/settings/BLOG_COMMENT_MESSAGE"/>
+    <author>
+      <name>Admin</name>
+      <uri>https://www.blogger.com/profile/09614081293183296077</uri>
+      <email>noreply@blogger.com</email>
+      <gd:image rel="http://schemas.google.com/g/2005#thumbnail" width="35" height="35" src="//www.blogger.com/img/blogger_logo_round_35.png"/>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-1107357176977155127.settings.BLOG_COMMENT_MODERATION</id>
+    <published>2025-03-03T08:53:16.921-08:00</published>
+    <updated>2025-03-07T00:15:23.437-08:00</updated>
+    <category scheme="http://schemas.google.com/g/2005#kind" term="http://schemas.google.com/blogger/2008/kind#settings"/>
+    <title type="text">BLOG_COMMENT_MODERATION</title>
+    <content type="text">DISABLED</content>
+    <link rel="edit" type="application/atom+xml" href="https://www.blogger.com/feeds/1107357176977155127/settings/BLOG_COMMENT_MODERATION"/>
+    <link rel="self" type="application/atom+xml" href="https://www.blogger.com/feeds/1107357176977155127/settings/BLOG_COMMENT_MODERATION"/>
+    <author>
+      <name>Admin</name>
+      <uri>https://www.blogger.com/profile/09614081293183296077</uri>
+      <email>noreply@blogger.com</email>
+      <gd:image rel="http://schemas.google.com/g/2005#thumbnail" width="35" height="35" src="//www.blogger.com/img/blogger_logo_round_35.png"/>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-1107357176977155127.settings.BLOG_COMMENT_MODERATION_DELAY</id>
+    <published>2025-03-03T08:53:16.921-08:00</published>
+    <updated>2025-03-07T00:15:23.437-08:00</updated>
+    <category scheme="http://schemas.google.com/g/2005#kind" term="http://schemas.google.com/blogger/2008/kind#settings"/>
+    <title type="text">BLOG_COMMENT_MODERATION_DELAY</title>
+    <content type="text">14</content>
+    <link rel="edit" type="application/atom+xml" href="https://www.blogger.com/feeds/1107357176977155127/settings/BLOG_COMMENT_MODERATION_DELAY"/>
+    <link rel="self" type="application/atom+xml" href="https://www.blogger.com/feeds/1107357176977155127/settings/BLOG_COMMENT_MODERATION_DELAY"/>
+    <author>
+      <name>Admin</name>
+      <uri>https://www.blogger.com/profile/09614081293183296077</uri>
+      <email>noreply@blogger.com</email>
+      <gd:image rel="http://schemas.google.com/g/2005#thumbnail" width="35" height="35" src="//www.blogger.com/img/blogger_logo_round_35.png"/>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-1107357176977155127.settings.BLOG_COMMENT_MODERATION_EMAIL</id>
+    <published>2025-03-03T08:53:16.921-08:00</published>
+    <updated>2025-03-07T00:15:23.437-08:00</updated>
+    <category scheme="http://schemas.google.com/g/2005#kind" term="http://schemas.google.com/blogger/2008/kind#settings"/>
+    <title type="text">BLOG_COMMENT_MODERATION_EMAIL</title>
+    <content type="text"></content>
+    <link rel="edit" type="application/atom+xml" href="https://www.blogger.com/feeds/1107357176977155127/settings/BLOG_COMMENT_MODERATION_EMAIL"/>
+    <link rel="self" type="application/atom+xml" href="https://www.blogger.com/feeds/1107357176977155127/settings/BLOG_COMMENT_MODERATION_EMAIL"/>
+    <author>
+      <name>Admin</name>
+      <uri>https://www.blogger.com/profile/09614081293183296077</uri>
+      <email>noreply@blogger.com</email>
+      <gd:image rel="http://schemas.google.com/g/2005#thumbnail" width="35" height="35" src="//www.blogger.com/img/blogger_logo_round_35.png"/>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-1107357176977155127.settings.BLOG_COMMENT_PROFILE_IMAGES</id>
+    <published>2025-03-03T08:53:16.921-08:00</published>
+    <updated>2025-03-07T00:15:23.437-08:00</updated>
+    <category scheme="http://schemas.google.com/g/2005#kind" term="http://schemas.google.com/blogger/2008/kind#settings"/>
+    <title type="text">BLOG_COMMENT_PROFILE_IMAGES</title>
+    <content type="text">true</content>
+    <link rel="edit" type="application/atom+xml" href="https://www.blogger.com/feeds/1107357176977155127/settings/BLOG_COMMENT_PROFILE_IMAGES"/>
+    <link rel="self" type="application/atom+xml" href="https://www.blogger.com/feeds/1107357176977155127/settings/BLOG_COMMENT_PROFILE_IMAGES"/>
+    <author>
+      <name>Admin</name>
+      <uri>https://www.blogger.com/profile/09614081293183296077</uri>
+      <email>noreply@blogger.com</email>
+      <gd:image rel="http://schemas.google.com/g/2005#thumbnail" width="35" height="35" src="//www.blogger.com/img/blogger_logo_round_35.png"/>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-1107357176977155127.settings.BLOG_COMMENTS_ALLOWED</id>
+    <published>2025-03-03T08:53:16.921-08:00</published>
+    <updated>2025-03-07T00:15:23.437-08:00</updated>
+    <category scheme="http://schemas.google.com/g/2005#kind" term="http://schemas.google.com/blogger/2008/kind#settings"/>
+    <title type="text">BLOG_COMMENTS_ALLOWED</title>
+    <content type="text">true</content>
+    <link rel="edit" type="application/atom+xml" href="https://www.blogger.com/feeds/1107357176977155127/settings/BLOG_COMMENTS_ALLOWED"/>
+    <link rel="self" type="application/atom+xml" href="https://www.blogger.com/feeds/1107357176977155127/settings/BLOG_COMMENTS_ALLOWED"/>
+    <author>
+      <name>Admin</name>
+      <uri>https://www.blogger.com/profile/09614081293183296077</uri>
+      <email>noreply@blogger.com</email>
+      <gd:image rel="http://schemas.google.com/g/2005#thumbnail" width="35" height="35" src="//www.blogger.com/img/blogger_logo_round_35.png"/>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-1107357176977155127.settings.BLOG_COMMENTS_TIME_STAMP_FORMAT</id>
+    <published>2025-03-03T08:53:16.921-08:00</published>
+    <updated>2025-03-07T00:15:23.437-08:00</updated>
+    <category scheme="http://schemas.google.com/g/2005#kind" term="http://schemas.google.com/blogger/2008/kind#settings"/>
+    <title type="text">BLOG_COMMENTS_TIME_STAMP_FORMAT</title>
+    <content type="text">29</content>
+    <link rel="edit" type="application/atom+xml" href="https://www.blogger.com/feeds/1107357176977155127/settings/BLOG_COMMENTS_TIME_STAMP_FORMAT"/>
+    <link rel="self" type="application/atom+xml" href="https://www.blogger.com/feeds/1107357176977155127/settings/BLOG_COMMENTS_TIME_STAMP_FORMAT"/>
+    <author>
+      <name>Admin</name>
+      <uri>https://www.blogger.com/profile/09614081293183296077</uri>
+      <email>noreply@blogger.com</email>
+      <gd:image rel="http://schemas.google.com/g/2005#thumbnail" width="35" height="35" src="//www.blogger.com/img/blogger_logo_round_35.png"/>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-1107357176977155127.settings.BLOG_CUSTOM_ADS_TXT</id>
+    <published>2025-03-03T08:53:16.921-08:00</published>
+    <updated>2025-03-07T00:15:23.437-08:00</updated>
+    <category scheme="http://schemas.google.com/g/2005#kind" term="http://schemas.google.com/blogger/2008/kind#settings"/>
+    <title type="text">BLOG_CUSTOM_ADS_TXT</title>
+    <content type="text"></content>
+    <link rel="edit" type="application/atom+xml" href="https://www.blogger.com/feeds/1107357176977155127/settings/BLOG_CUSTOM_ADS_TXT"/>
+    <link rel="self" type="application/atom+xml" href="https://www.blogger.com/feeds/1107357176977155127/settings/BLOG_CUSTOM_ADS_TXT"/>
+    <author>
+      <name>Admin</name>
+      <uri>https://www.blogger.com/profile/09614081293183296077</uri>
+      <email>noreply@blogger.com</email>
+      <gd:image rel="http://schemas.google.com/g/2005#thumbnail" width="35" height="35" src="//www.blogger.com/img/blogger_logo_round_35.png"/>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-1107357176977155127.settings.BLOG_CUSTOM_ADS_TXT_ENABLED</id>
+    <published>2025-03-03T08:53:16.921-08:00</published>
+    <updated>2025-03-07T00:15:23.437-08:00</updated>
+    <category scheme="http://schemas.google.com/g/2005#kind" term="http://schemas.google.com/blogger/2008/kind#settings"/>
+    <title type="text">BLOG_CUSTOM_ADS_TXT_ENABLED</title>
+    <content type="text">false</content>
+    <link rel="edit" type="application/atom+xml" href="https://www.blogger.com/feeds/1107357176977155127/settings/BLOG_CUSTOM_ADS_TXT_ENABLED"/>
+    <link rel="self" type="application/atom+xml" href="https://www.blogger.com/feeds/1107357176977155127/settings/BLOG_CUSTOM_ADS_TXT_ENABLED"/>
+    <author>
+      <name>Admin</name>
+      <uri>https://www.blogger.com/profile/09614081293183296077</uri>
+      <email>noreply@blogger.com</email>
+      <gd:image rel="http://schemas.google.com/g/2005#thumbnail" width="35" height="35" src="//www.blogger.com/img/blogger_logo_round_35.png"/>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-1107357176977155127.settings.BLOG_CUSTOM_PAGE_NOT_FOUND</id>
+    <published>2025-03-03T08:53:16.921-08:00</published>
+    <updated>2025-03-07T00:15:23.437-08:00</updated>
+    <category scheme="http://schemas.google.com/g/2005#kind" term="http://schemas.google.com/blogger/2008/kind#settings"/>
+    <title type="text">BLOG_CUSTOM_PAGE_NOT_FOUND</title>
+    <content type="text"></content>
+    <link rel="edit" type="application/atom+xml" href="https://www.blogger.com/feeds/1107357176977155127/settings/BLOG_CUSTOM_PAGE_NOT_FOUND"/>
+    <link rel="self" type="application/atom+xml" href="https://www.blogger.com/feeds/1107357176977155127/settings/BLOG_CUSTOM_PAGE_NOT_FOUND"/>
+    <author>
+      <name>Admin</name>
+      <uri>https://www.blogger.com/profile/09614081293183296077</uri>
+      <email>noreply@blogger.com</email>
+      <gd:image rel="http://schemas.google.com/g/2005#thumbnail" width="35" height="35" src="//www.blogger.com/img/blogger_logo_round_35.png"/>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-1107357176977155127.settings.BLOG_CUSTOM_ROBOTS_TXT</id>
+    <published>2025-03-03T08:53:16.921-08:00</published>
+    <updated>2025-03-07T00:15:23.437-08:00</updated>
+    <category scheme="http://schemas.google.com/g/2005#kind" term="http://schemas.google.com/blogger/2008/kind#settings"/>
+    <title type="text">BLOG_CUSTOM_ROBOTS_TXT</title>
+    <content type="text"></content>
+    <link rel="edit" type="application/atom+xml" href="https://www.blogger.com/feeds/1107357176977155127/settings/BLOG_CUSTOM_ROBOTS_TXT"/>
+    <link rel="self" type="application/atom+xml" href="https://www.blogger.com/feeds/1107357176977155127/settings/BLOG_CUSTOM_ROBOTS_TXT"/>
+    <author>
+      <name>Admin</name>
+      <uri>https://www.blogger.com/profile/09614081293183296077</uri>
+      <email>noreply@blogger.com</email>
+      <gd:image rel="http://schemas.google.com/g/2005#thumbnail" width="35" height="35" src="//www.blogger.com/img/blogger_logo_round_35.png"/>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-1107357176977155127.settings.BLOG_CUSTOM_ROBOTS_TXT_ENABLED</id>
+    <published>2025-03-03T08:53:16.921-08:00</published>
+    <updated>2025-03-07T00:15:23.437-08:00</updated>
+    <category scheme="http://schemas.google.com/g/2005#kind" term="http://schemas.google.com/blogger/2008/kind#settings"/>
+    <title type="text">BLOG_CUSTOM_ROBOTS_TXT_ENABLED</title>
+    <content type="text">false</content>
+    <link rel="edit" type="application/atom+xml" href="https://www.blogger.com/feeds/1107357176977155127/settings/BLOG_CUSTOM_ROBOTS_TXT_ENABLED"/>
+    <link rel="self" type="application/atom+xml" href="https://www.blogger.com/feeds/1107357176977155127/settings/BLOG_CUSTOM_ROBOTS_TXT_ENABLED"/>
+    <author>
+      <name>Admin</name>
+      <uri>https://www.blogger.com/profile/09614081293183296077</uri>
+      <email>noreply@blogger.com</email>
+      <gd:image rel="http://schemas.google.com/g/2005#thumbnail" width="35" height="35" src="//www.blogger.com/img/blogger_logo_round_35.png"/>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-1107357176977155127.settings.BLOG_DATE_FORMAT</id>
+    <published>2025-03-03T08:53:16.921-08:00</published>
+    <updated>2025-03-07T00:15:23.437-08:00</updated>
+    <category scheme="http://schemas.google.com/g/2005#kind" term="http://schemas.google.com/blogger/2008/kind#settings"/>
+    <title type="text">BLOG_DATE_FORMAT</title>
+    <content type="text">26</content>
+    <link rel="edit" type="application/atom+xml" href="https://www.blogger.com/feeds/1107357176977155127/settings/BLOG_DATE_FORMAT"/>
+    <link rel="self" type="application/atom+xml" href="https://www.blogger.com/feeds/1107357176977155127/settings/BLOG_DATE_FORMAT"/>
+    <author>
+      <name>Admin</name>
+      <uri>https://www.blogger.com/profile/09614081293183296077</uri>
+      <email>noreply@blogger.com</email>
+      <gd:image rel="http://schemas.google.com/g/2005#thumbnail" width="35" height="35" src="//www.blogger.com/img/blogger_logo_round_35.png"/>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-1107357176977155127.settings.BLOG_DEFAULT_COMMENTS_MODE</id>
+    <published>2025-03-03T08:53:16.921-08:00</published>
+    <updated>2025-03-07T00:15:23.437-08:00</updated>
+    <category scheme="http://schemas.google.com/g/2005#kind" term="http://schemas.google.com/blogger/2008/kind#settings"/>
+    <title type="text">BLOG_DEFAULT_COMMENTS_MODE</title>
+    <content type="text">DEFAULT_HAVE_COMMENTS</content>
+    <link rel="edit" type="application/atom+xml" href="https://www.blogger.com/feeds/1107357176977155127/settings/BLOG_DEFAULT_COMMENTS_MODE"/>
+    <link rel="self" type="application/atom+xml" href="https://www.blogger.com/feeds/1107357176977155127/settings/BLOG_DEFAULT_COMMENTS_MODE"/>
+    <author>
+      <name>Admin</name>
+      <uri>https://www.blogger.com/profile/09614081293183296077</uri>
+      <email>noreply@blogger.com</email>
+      <gd:image rel="http://schemas.google.com/g/2005#thumbnail" width="35" height="35" src="//www.blogger.com/img/blogger_logo_round_35.png"/>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-1107357176977155127.settings.BLOG_DESCRIPTION</id>
+    <published>2025-03-03T08:53:16.921-08:00</published>
+    <updated>2025-03-07T00:15:23.437-08:00</updated>
+    <category scheme="http://schemas.google.com/g/2005#kind" term="http://schemas.google.com/blogger/2008/kind#settings"/>
+    <title type="text">BLOG_DESCRIPTION</title>
+    <content type="text"></content>
+    <link rel="edit" type="application/atom+xml" href="https://www.blogger.com/feeds/1107357176977155127/settings/BLOG_DESCRIPTION"/>
+    <link rel="self" type="application/atom+xml" href="https://www.blogger.com/feeds/1107357176977155127/settings/BLOG_DESCRIPTION"/>
+    <author>
+      <name>Admin</name>
+      <uri>https://www.blogger.com/profile/09614081293183296077</uri>
+      <email>noreply@blogger.com</email>
+      <gd:image rel="http://schemas.google.com/g/2005#thumbnail" width="35" height="35" src="//www.blogger.com/img/blogger_logo_round_35.png"/>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-1107357176977155127.settings.BLOG_EMAIL_POST_LINKS</id>
+    <published>2025-03-03T08:53:16.921-08:00</published>
+    <updated>2025-03-07T00:15:23.437-08:00</updated>
+    <category scheme="http://schemas.google.com/g/2005#kind" term="http://schemas.google.com/blogger/2008/kind#settings"/>
+    <title type="text">BLOG_EMAIL_POST_LINKS</title>
+    <content type="text">false</content>
+    <link rel="edit" type="application/atom+xml" href="https://www.blogger.com/feeds/1107357176977155127/settings/BLOG_EMAIL_POST_LINKS"/>
+    <link rel="self" type="application/atom+xml" href="https://www.blogger.com/feeds/1107357176977155127/settings/BLOG_EMAIL_POST_LINKS"/>
+    <author>
+      <name>Admin</name>
+      <uri>https://www.blogger.com/profile/09614081293183296077</uri>
+      <email>noreply@blogger.com</email>
+      <gd:image rel="http://schemas.google.com/g/2005#thumbnail" width="35" height="35" src="//www.blogger.com/img/blogger_logo_round_35.png"/>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-1107357176977155127.settings.BLOG_FEED_REDIRECT_URL</id>
+    <published>2025-03-03T08:53:16.921-08:00</published>
+    <updated>2025-03-07T00:15:23.437-08:00</updated>
+    <category scheme="http://schemas.google.com/g/2005#kind" term="http://schemas.google.com/blogger/2008/kind#settings"/>
+    <title type="text">BLOG_FEED_REDIRECT_URL</title>
+    <content type="text"></content>
+    <link rel="edit" type="application/atom+xml" href="https://www.blogger.com/feeds/1107357176977155127/settings/BLOG_FEED_REDIRECT_URL"/>
+    <link rel="self" type="application/atom+xml" href="https://www.blogger.com/feeds/1107357176977155127/settings/BLOG_FEED_REDIRECT_URL"/>
+    <author>
+      <name>Admin</name>
+      <uri>https://www.blogger.com/profile/09614081293183296077</uri>
+      <email>noreply@blogger.com</email>
+      <gd:image rel="http://schemas.google.com/g/2005#thumbnail" width="35" height="35" src="//www.blogger.com/img/blogger_logo_round_35.png"/>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-1107357176977155127.settings.BLOG_FLOAT_ALIGNMENT</id>
+    <published>2025-03-03T08:53:16.921-08:00</published>
+    <updated>2025-03-07T00:15:23.437-08:00</updated>
+    <category scheme="http://schemas.google.com/g/2005#kind" term="http://schemas.google.com/blogger/2008/kind#settings"/>
+    <title type="text">BLOG_FLOAT_ALIGNMENT</title>
+    <content type="text">true</content>
+    <link rel="edit" type="application/atom+xml" href="https://www.blogger.com/feeds/1107357176977155127/settings/BLOG_FLOAT_ALIGNMENT"/>
+    <link rel="self" type="application/atom+xml" href="https://www.blogger.com/feeds/1107357176977155127/settings/BLOG_FLOAT_ALIGNMENT"/>
+    <author>
+      <name>Admin</name>
+      <uri>https://www.blogger.com/profile/09614081293183296077</uri>
+      <email>noreply@blogger.com</email>
+      <gd:image rel="http://schemas.google.com/g/2005#thumbnail" width="35" height="35" src="//www.blogger.com/img/blogger_logo_round_35.png"/>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-1107357176977155127.settings.BLOG_LOCALE</id>
+    <published>2025-03-03T08:53:16.921-08:00</published>
+    <updated>2025-03-07T00:15:23.437-08:00</updated>
+    <category scheme="http://schemas.google.com/g/2005#kind" term="http://schemas.google.com/blogger/2008/kind#settings"/>
+    <title type="text">BLOG_LOCALE</title>
+    <content type="text">en</content>
+    <link rel="edit" type="application/atom+xml" href="https://www.blogger.com/feeds/1107357176977155127/settings/BLOG_LOCALE"/>
+    <link rel="self" type="application/atom+xml" href="https://www.blogger.com/feeds/1107357176977155127/settings/BLOG_LOCALE"/>
+    <author>
+      <name>Admin</name>
+      <uri>https://www.blogger.com/profile/09614081293183296077</uri>
+      <email>noreply@blogger.com</email>
+      <gd:image rel="http://schemas.google.com/g/2005#thumbnail" width="35" height="35" src="//www.blogger.com/img/blogger_logo_round_35.png"/>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-1107357176977155127.settings.BLOG_MAX_NUM</id>
+    <published>2025-03-03T08:53:16.921-08:00</published>
+    <updated>2025-03-07T00:15:23.437-08:00</updated>
+    <category scheme="http://schemas.google.com/g/2005#kind" term="http://schemas.google.com/blogger/2008/kind#settings"/>
+    <title type="text">BLOG_MAX_NUM</title>
+    <content type="text">7</content>
+    <link rel="edit" type="application/atom+xml" href="https://www.blogger.com/feeds/1107357176977155127/settings/BLOG_MAX_NUM"/>
+    <link rel="self" type="application/atom+xml" href="https://www.blogger.com/feeds/1107357176977155127/settings/BLOG_MAX_NUM"/>
+    <author>
+      <name>Admin</name>
+      <uri>https://www.blogger.com/profile/09614081293183296077</uri>
+      <email>noreply@blogger.com</email>
+      <gd:image rel="http://schemas.google.com/g/2005#thumbnail" width="35" height="35" src="//www.blogger.com/img/blogger_logo_round_35.png"/>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-1107357176977155127.settings.BLOG_MAX_UNIT</id>
+    <published>2025-03-03T08:53:16.921-08:00</published>
+    <updated>2025-03-07T00:15:23.437-08:00</updated>
+    <category scheme="http://schemas.google.com/g/2005#kind" term="http://schemas.google.com/blogger/2008/kind#settings"/>
+    <title type="text">BLOG_MAX_UNIT</title>
+    <content type="text">POSTS</content>
+    <link rel="edit" type="application/atom+xml" href="https://www.blogger.com/feeds/1107357176977155127/settings/BLOG_MAX_UNIT"/>
+    <link rel="self" type="application/atom+xml" href="https://www.blogger.com/feeds/1107357176977155127/settings/BLOG_MAX_UNIT"/>
+    <author>
+      <name>Admin</name>
+      <uri>https://www.blogger.com/profile/09614081293183296077</uri>
+      <email>noreply@blogger.com</email>
+      <gd:image rel="http://schemas.google.com/g/2005#thumbnail" width="35" height="35" src="//www.blogger.com/img/blogger_logo_round_35.png"/>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-1107357176977155127.settings.BLOG_META_DESCRIPTION</id>
+    <published>2025-03-03T08:53:16.921-08:00</published>
+    <updated>2025-03-07T00:15:23.437-08:00</updated>
+    <category scheme="http://schemas.google.com/g/2005#kind" term="http://schemas.google.com/blogger/2008/kind#settings"/>
+    <title type="text">BLOG_META_DESCRIPTION</title>
+    <content type="text"></content>
+    <link rel="edit" type="application/atom+xml" href="https://www.blogger.com/feeds/1107357176977155127/settings/BLOG_META_DESCRIPTION"/>
+    <link rel="self" type="application/atom+xml" href="https://www.blogger.com/feeds/1107357176977155127/settings/BLOG_META_DESCRIPTION"/>
+    <author>
+      <name>Admin</name>
+      <uri>https://www.blogger.com/profile/09614081293183296077</uri>
+      <email>noreply@blogger.com</email>
+      <gd:image rel="http://schemas.google.com/g/2005#thumbnail" width="35" height="35" src="//www.blogger.com/img/blogger_logo_round_35.png"/>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-1107357176977155127.settings.BLOG_META_DESCRIPTION_ENABLED</id>
+    <published>2025-03-03T08:53:16.921-08:00</published>
+    <updated>2025-03-07T00:15:23.437-08:00</updated>
+    <category scheme="http://schemas.google.com/g/2005#kind" term="http://schemas.google.com/blogger/2008/kind#settings"/>
+    <title type="text">BLOG_META_DESCRIPTION_ENABLED</title>
+    <content type="text">false</content>
+    <link rel="edit" type="application/atom+xml" href="https://www.blogger.com/feeds/1107357176977155127/settings/BLOG_META_DESCRIPTION_ENABLED"/>
+    <link rel="self" type="application/atom+xml" href="https://www.blogger.com/feeds/1107357176977155127/settings/BLOG_META_DESCRIPTION_ENABLED"/>
+    <author>
+      <name>Admin</name>
+      <uri>https://www.blogger.com/profile/09614081293183296077</uri>
+      <email>noreply@blogger.com</email>
+      <gd:image rel="http://schemas.google.com/g/2005#thumbnail" width="35" height="35" src="//www.blogger.com/img/blogger_logo_round_35.png"/>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-1107357176977155127.settings.BLOG_NAME</id>
+    <published>2025-03-03T08:53:16.921-08:00</published>
+    <updated>2025-03-07T00:15:23.437-08:00</updated>
+    <category scheme="http://schemas.google.com/g/2005#kind" term="http://schemas.google.com/blogger/2008/kind#settings"/>
+    <title type="text">BLOG_NAME</title>
+    <content type="text">utest109</content>
+    <link rel="edit" type="application/atom+xml" href="https://www.blogger.com/feeds/1107357176977155127/settings/BLOG_NAME"/>
+    <link rel="self" type="application/atom+xml" href="https://www.blogger.com/feeds/1107357176977155127/settings/BLOG_NAME"/>
+    <author>
+      <name>Admin</name>
+      <uri>https://www.blogger.com/profile/09614081293183296077</uri>
+      <email>noreply@blogger.com</email>
+      <gd:image rel="http://schemas.google.com/g/2005#thumbnail" width="35" height="35" src="//www.blogger.com/img/blogger_logo_round_35.png"/>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-1107357176977155127.settings.BLOG_PER_POST_FEED</id>
+    <published>2025-03-03T08:53:16.921-08:00</published>
+    <updated>2025-03-07T00:15:23.437-08:00</updated>
+    <category scheme="http://schemas.google.com/g/2005#kind" term="http://schemas.google.com/blogger/2008/kind#settings"/>
+    <title type="text">BLOG_PER_POST_FEED</title>
+    <content type="text">FULL</content>
+    <link rel="edit" type="application/atom+xml" href="https://www.blogger.com/feeds/1107357176977155127/settings/BLOG_PER_POST_FEED"/>
+    <link rel="self" type="application/atom+xml" href="https://www.blogger.com/feeds/1107357176977155127/settings/BLOG_PER_POST_FEED"/>
+    <author>
+      <name>Admin</name>
+      <uri>https://www.blogger.com/profile/09614081293183296077</uri>
+      <email>noreply@blogger.com</email>
+      <gd:image rel="http://schemas.google.com/g/2005#thumbnail" width="35" height="35" src="//www.blogger.com/img/blogger_logo_round_35.png"/>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-1107357176977155127.settings.BLOG_POST_FEED</id>
+    <published>2025-03-03T08:53:16.921-08:00</published>
+    <updated>2025-03-07T00:15:23.437-08:00</updated>
+    <category scheme="http://schemas.google.com/g/2005#kind" term="http://schemas.google.com/blogger/2008/kind#settings"/>
+    <title type="text">BLOG_POST_FEED</title>
+    <content type="text">FULL</content>
+    <link rel="edit" type="application/atom+xml" href="https://www.blogger.com/feeds/1107357176977155127/settings/BLOG_POST_FEED"/>
+    <link rel="self" type="application/atom+xml" href="https://www.blogger.com/feeds/1107357176977155127/settings/BLOG_POST_FEED"/>
+    <author>
+      <name>Admin</name>
+      <uri>https://www.blogger.com/profile/09614081293183296077</uri>
+      <email>noreply@blogger.com</email>
+      <gd:image rel="http://schemas.google.com/g/2005#thumbnail" width="35" height="35" src="//www.blogger.com/img/blogger_logo_round_35.png"/>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-1107357176977155127.settings.BLOG_POST_FEED_FOOTER</id>
+    <published>2025-03-03T08:53:16.921-08:00</published>
+    <updated>2025-03-07T00:15:23.437-08:00</updated>
+    <category scheme="http://schemas.google.com/g/2005#kind" term="http://schemas.google.com/blogger/2008/kind#settings"/>
+    <title type="text">BLOG_POST_FEED_FOOTER</title>
+    <content type="text"></content>
+    <link rel="edit" type="application/atom+xml" href="https://www.blogger.com/feeds/1107357176977155127/settings/BLOG_POST_FEED_FOOTER"/>
+    <link rel="self" type="application/atom+xml" href="https://www.blogger.com/feeds/1107357176977155127/settings/BLOG_POST_FEED_FOOTER"/>
+    <author>
+      <name>Admin</name>
+      <uri>https://www.blogger.com/profile/09614081293183296077</uri>
+      <email>noreply@blogger.com</email>
+      <gd:image rel="http://schemas.google.com/g/2005#thumbnail" width="35" height="35" src="//www.blogger.com/img/blogger_logo_round_35.png"/>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-1107357176977155127.settings.BLOG_POST_TEMPLATE</id>
+    <published>2025-03-03T08:53:16.921-08:00</published>
+    <updated>2025-03-07T00:15:23.437-08:00</updated>
+    <category scheme="http://schemas.google.com/g/2005#kind" term="http://schemas.google.com/blogger/2008/kind#settings"/>
+    <title type="text">BLOG_POST_TEMPLATE</title>
+    <content type="text"></content>
+    <link rel="edit" type="application/atom+xml" href="https://www.blogger.com/feeds/1107357176977155127/settings/BLOG_POST_TEMPLATE"/>
+    <link rel="self" type="application/atom+xml" href="https://www.blogger.com/feeds/1107357176977155127/settings/BLOG_POST_TEMPLATE"/>
+    <author>
+      <name>Admin</name>
+      <uri>https://www.blogger.com/profile/09614081293183296077</uri>
+      <email>noreply@blogger.com</email>
+      <gd:image rel="http://schemas.google.com/g/2005#thumbnail" width="35" height="35" src="//www.blogger.com/img/blogger_logo_round_35.png"/>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-1107357176977155127.settings.BLOG_QUICK_EDITING</id>
+    <published>2025-03-03T08:53:16.921-08:00</published>
+    <updated>2025-03-07T00:15:23.437-08:00</updated>
+    <category scheme="http://schemas.google.com/g/2005#kind" term="http://schemas.google.com/blogger/2008/kind#settings"/>
+    <title type="text">BLOG_QUICK_EDITING</title>
+    <content type="text">true</content>
+    <link rel="edit" type="application/atom+xml" href="https://www.blogger.com/feeds/1107357176977155127/settings/BLOG_QUICK_EDITING"/>
+    <link rel="self" type="application/atom+xml" href="https://www.blogger.com/feeds/1107357176977155127/settings/BLOG_QUICK_EDITING"/>
+    <author>
+      <name>Admin</name>
+      <uri>https://www.blogger.com/profile/09614081293183296077</uri>
+      <email>noreply@blogger.com</email>
+      <gd:image rel="http://schemas.google.com/g/2005#thumbnail" width="35" height="35" src="//www.blogger.com/img/blogger_logo_round_35.png"/>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-1107357176977155127.settings.BLOG_READ_ACCESS_MODE</id>
+    <published>2025-03-03T08:53:16.921-08:00</published>
+    <updated>2025-03-07T00:15:23.437-08:00</updated>
+    <category scheme="http://schemas.google.com/g/2005#kind" term="http://schemas.google.com/blogger/2008/kind#settings"/>
+    <title type="text">BLOG_READ_ACCESS_MODE</title>
+    <content type="text">PUBLIC</content>
+    <link rel="edit" type="application/atom+xml" href="https://www.blogger.com/feeds/1107357176977155127/settings/BLOG_READ_ACCESS_MODE"/>
+    <link rel="self" type="application/atom+xml" href="https://www.blogger.com/feeds/1107357176977155127/settings/BLOG_READ_ACCESS_MODE"/>
+    <author>
+      <name>Admin</name>
+      <uri>https://www.blogger.com/profile/09614081293183296077</uri>
+      <email>noreply@blogger.com</email>
+      <gd:image rel="http://schemas.google.com/g/2005#thumbnail" width="35" height="35" src="//www.blogger.com/img/blogger_logo_round_35.png"/>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-1107357176977155127.settings.BLOG_READER_PERMISSION</id>
+    <published>2025-03-03T08:53:16.921-08:00</published>
+    <updated>2025-03-07T00:15:23.437-08:00</updated>
+    <category scheme="http://schemas.google.com/g/2005#kind" term="http://schemas.google.com/blogger/2008/kind#settings"/>
+    <title type="text">BLOG_READER_PERMISSION</title>
+    <content type="text"></content>
+    <link rel="edit" type="application/atom+xml" href="https://www.blogger.com/feeds/1107357176977155127/settings/BLOG_READER_PERMISSION"/>
+    <link rel="self" type="application/atom+xml" href="https://www.blogger.com/feeds/1107357176977155127/settings/BLOG_READER_PERMISSION"/>
+    <author>
+      <name>Admin</name>
+      <uri>https://www.blogger.com/profile/09614081293183296077</uri>
+      <email>noreply@blogger.com</email>
+      <gd:image rel="http://schemas.google.com/g/2005#thumbnail" width="35" height="35" src="//www.blogger.com/img/blogger_logo_round_35.png"/>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-1107357176977155127.settings.BLOG_SEARCHABLE</id>
+    <published>2025-03-03T08:53:16.921-08:00</published>
+    <updated>2025-03-07T00:15:23.437-08:00</updated>
+    <category scheme="http://schemas.google.com/g/2005#kind" term="http://schemas.google.com/blogger/2008/kind#settings"/>
+    <title type="text">BLOG_SEARCHABLE</title>
+    <content type="text">true</content>
+    <link rel="edit" type="application/atom+xml" href="https://www.blogger.com/feeds/1107357176977155127/settings/BLOG_SEARCHABLE"/>
+    <link rel="self" type="application/atom+xml" href="https://www.blogger.com/feeds/1107357176977155127/settings/BLOG_SEARCHABLE"/>
+    <author>
+      <name>Admin</name>
+      <uri>https://www.blogger.com/profile/09614081293183296077</uri>
+      <email>noreply@blogger.com</email>
+      <gd:image rel="http://schemas.google.com/g/2005#thumbnail" width="35" height="35" src="//www.blogger.com/img/blogger_logo_round_35.png"/>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-1107357176977155127.settings.BLOG_SEND_EMAIL</id>
+    <published>2025-03-03T08:53:16.921-08:00</published>
+    <updated>2025-03-07T00:15:23.437-08:00</updated>
+    <category scheme="http://schemas.google.com/g/2005#kind" term="http://schemas.google.com/blogger/2008/kind#settings"/>
+    <title type="text">BLOG_SEND_EMAIL</title>
+    <content type="text"></content>
+    <link rel="edit" type="application/atom+xml" href="https://www.blogger.com/feeds/1107357176977155127/settings/BLOG_SEND_EMAIL"/>
+    <link rel="self" type="application/atom+xml" href="https://www.blogger.com/feeds/1107357176977155127/settings/BLOG_SEND_EMAIL"/>
+    <author>
+      <name>Admin</name>
+      <uri>https://www.blogger.com/profile/09614081293183296077</uri>
+      <email>noreply@blogger.com</email>
+      <gd:image rel="http://schemas.google.com/g/2005#thumbnail" width="35" height="35" src="//www.blogger.com/img/blogger_logo_round_35.png"/>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-1107357176977155127.settings.BLOG_SHOW_URL</id>
+    <published>2025-03-03T08:53:16.921-08:00</published>
+    <updated>2025-03-07T00:15:23.437-08:00</updated>
+    <category scheme="http://schemas.google.com/g/2005#kind" term="http://schemas.google.com/blogger/2008/kind#settings"/>
+    <title type="text">BLOG_SHOW_URL</title>
+    <content type="text">false</content>
+    <link rel="edit" type="application/atom+xml" href="https://www.blogger.com/feeds/1107357176977155127/settings/BLOG_SHOW_URL"/>
+    <link rel="self" type="application/atom+xml" href="https://www.blogger.com/feeds/1107357176977155127/settings/BLOG_SHOW_URL"/>
+    <author>
+      <name>Admin</name>
+      <uri>https://www.blogger.com/profile/09614081293183296077</uri>
+      <email>noreply@blogger.com</email>
+      <gd:image rel="http://schemas.google.com/g/2005#thumbnail" width="35" height="35" src="//www.blogger.com/img/blogger_logo_round_35.png"/>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-1107357176977155127.settings.BLOG_SUBDOMAIN</id>
+    <published>2025-03-03T08:53:16.921-08:00</published>
+    <updated>2025-03-07T00:15:23.437-08:00</updated>
+    <category scheme="http://schemas.google.com/g/2005#kind" term="http://schemas.google.com/blogger/2008/kind#settings"/>
+    <title type="text">BLOG_SUBDOMAIN</title>
+    <content type="text">scrapapp</content>
+    <link rel="edit" type="application/atom+xml" href="https://www.blogger.com/feeds/1107357176977155127/settings/BLOG_SUBDOMAIN"/>
+    <link rel="self" type="application/atom+xml" href="https://www.blogger.com/feeds/1107357176977155127/settings/BLOG_SUBDOMAIN"/>
+    <author>
+      <name>Admin</name>
+      <uri>https://www.blogger.com/profile/09614081293183296077</uri>
+      <email>noreply@blogger.com</email>
+      <gd:image rel="http://schemas.google.com/g/2005#thumbnail" width="35" height="35" src="//www.blogger.com/img/blogger_logo_round_35.png"/>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-1107357176977155127.settings.BLOG_TIME_STAMP_FORMAT</id>
+    <published>2025-03-03T08:53:16.921-08:00</published>
+    <updated>2025-03-07T00:15:23.437-08:00</updated>
+    <category scheme="http://schemas.google.com/g/2005#kind" term="http://schemas.google.com/blogger/2008/kind#settings"/>
+    <title type="text">BLOG_TIME_STAMP_FORMAT</title>
+    <content type="text">15</content>
+    <link rel="edit" type="application/atom+xml" href="https://www.blogger.com/feeds/1107357176977155127/settings/BLOG_TIME_STAMP_FORMAT"/>
+    <link rel="self" type="application/atom+xml" href="https://www.blogger.com/feeds/1107357176977155127/settings/BLOG_TIME_STAMP_FORMAT"/>
+    <author>
+      <name>Admin</name>
+      <uri>https://www.blogger.com/profile/09614081293183296077</uri>
+      <email>noreply@blogger.com</email>
+      <gd:image rel="http://schemas.google.com/g/2005#thumbnail" width="35" height="35" src="//www.blogger.com/img/blogger_logo_round_35.png"/>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-1107357176977155127.settings.BLOG_TIME_ZONE</id>
+    <published>2025-03-03T08:53:16.921-08:00</published>
+    <updated>2025-03-07T00:15:23.437-08:00</updated>
+    <category scheme="http://schemas.google.com/g/2005#kind" term="http://schemas.google.com/blogger/2008/kind#settings"/>
+    <title type="text">BLOG_TIME_ZONE</title>
+    <content type="text">America/Los_Angeles</content>
+    <link rel="edit" type="application/atom+xml" href="https://www.blogger.com/feeds/1107357176977155127/settings/BLOG_TIME_ZONE"/>
+    <link rel="self" type="application/atom+xml" href="https://www.blogger.com/feeds/1107357176977155127/settings/BLOG_TIME_ZONE"/>
+    <author>
+      <name>Admin</name>
+      <uri>https://www.blogger.com/profile/09614081293183296077</uri>
+      <email>noreply@blogger.com</email>
+      <gd:image rel="http://schemas.google.com/g/2005#thumbnail" width="35" height="35" src="//www.blogger.com/img/blogger_logo_round_35.png"/>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-1107357176977155127.settings.BLOG_USE_LIGHTBOX</id>
+    <published>2025-03-03T08:53:16.921-08:00</published>
+    <updated>2025-03-07T00:15:23.437-08:00</updated>
+    <category scheme="http://schemas.google.com/g/2005#kind" term="http://schemas.google.com/blogger/2008/kind#settings"/>
+    <title type="text">BLOG_USE_LIGHTBOX</title>
+    <content type="text">true</content>
+    <link rel="edit" type="application/atom+xml" href="https://www.blogger.com/feeds/1107357176977155127/settings/BLOG_USE_LIGHTBOX"/>
+    <link rel="self" type="application/atom+xml" href="https://www.blogger.com/feeds/1107357176977155127/settings/BLOG_USE_LIGHTBOX"/>
+    <author>
+      <name>Admin</name>
+      <uri>https://www.blogger.com/profile/09614081293183296077</uri>
+      <email>noreply@blogger.com</email>
+      <gd:image rel="http://schemas.google.com/g/2005#thumbnail" width="35" height="35" src="//www.blogger.com/img/blogger_logo_round_35.png"/>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-1107357176977155127.post-3387481584672719505</id>
+    <published>2025-03-03T08:54:00.000-08:00</published>
+    <updated>2025-08-23T03:44:23.410-07:00</updated>
+    <category scheme="http://schemas.google.com/g/2005#kind" term="http://schemas.google.com/blogger/2008/kind#post"/>
+    <title type="text">Second Post</title>
+    <content type="html">i want to express my heartfelt gratitude to Mr. Shivanshu</content>
+    <link rel="replies" type="application/atom+xml" href="https://utest108.blogspot.com/feeds/3387481584672719505/comments/default" title="Post Comments"/>
+    <link rel="replies" type="text/html" href="https://themesgiver.blogspot.com/2025/03/second-post.html#comment-form" title="0 Comments"/>
+    <link rel="edit" type="application/atom+xml" href="https://www.blogger.com/feeds/2504213420472834725/posts/default/3387481584672719505"/>
+    <link rel="self" type="application/atom+xml" href="https://www.blogger.com/feeds/2504213420472834725/posts/default/3387481584672719505"/>
+    <link rel="alternate" type="text/html" href="https://themesgiver.blogspot.com/2025/03/second-post.html" title="Second Post"/>
+    <author>
+      <name>Admin</name>
+      <uri>https://www.blogger.com/profile/09614081293183296077</uri>
+      <email>noreply@blogger.com</email>
+      <gd:image rel="http://schemas.google.com/g/2005#thumbnail" width="35" height="35" src="//www.blogger.com/img/blogger_logo_round_35.png"/>
+    </author>
+    <thr:total>0</thr:total>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-1107357176977155127.post-467925811262844212</id>
+    <published>2025-03-03T08:54:00.000-08:00</published>
+    <updated>2025-08-23T03:44:23.410-07:00</updated>
+    <category scheme="http://schemas.google.com/g/2005#kind" term="http://schemas.google.com/blogger/2008/kind#post"/>
+    <title type="text">First post</title>
+    <content type="html">hello welcome to my blog!
+
+&lt;div class=&quot;separator&quot; style=&quot;clear: both;&quot;&gt;&lt;a href=&quot;https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgOFaEbPP-oCQAafFRHzxGUshHCxAwm0zakXIxHRQtk0fqzc3TQ88i-Tg6NYuMMOv_4AilVZXCMb30mliEtU2g8J2CZYZDVu0iAeh2Qv-Tg64J-s2gFfikpwAOaMY7vAd64Z4_NvWjmcB__40OO7_naQuHwIE3B5S1tYFKC0sPS8NtZYIF8yVhVeErLBy6F/s1600/IMG-20250301-WA0013.jpg&quot; style=&quot;display: block; padding: 1em 0; text-align: center; &quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; data-original-height=&quot;475&quot; data-original-width=&quot;794&quot; src=&quot;https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgOFaEbPP-oCQAafFRHzxGUshHCxAwm0zakXIxHRQtk0fqzc3TQ88i-Tg6NYuMMOv_4AilVZXCMb30mliEtU2g8J2CZYZDVu0iAeh2Qv-Tg64J-s2gFfikpwAOaMY7vAd64Z4_NvWjmcB__40OO7_naQuHwIE3B5S1tYFKC0sPS8NtZYIF8yVhVeErLBy6F/s1600/IMG-20250301-WA0013.jpg&quot;/&gt;&lt;/a&gt;&lt;/div&gt;</content>
+    <link rel="replies" type="application/atom+xml" href="https://utest108.blogspot.com/feeds/467925811262844212/comments/default" title="Post Comments"/>
+    <link rel="replies" type="text/html" href="https://themesgiver.blogspot.com/2025/03/first-post.html#comment-form" title="0 Comments"/>
+    <link rel="edit" type="application/atom+xml" href="https://www.blogger.com/feeds/2504213420472834725/posts/default/467925811262844212"/>
+    <link rel="self" type="application/atom+xml" href="https://www.blogger.com/feeds/2504213420472834725/posts/default/467925811262844212"/>
+    <link rel="alternate" type="text/html" href="https://themesgiver.blogspot.com/2025/03/first-post.html" title="First post"/>
+    <author>
+      <name>Admin</name>
+      <uri>https://www.blogger.com/profile/09614081293183296077</uri>
+      <email>noreply@blogger.com</email>
+      <gd:image rel="http://schemas.google.com/g/2005#thumbnail" width="35" height="35" src="//www.blogger.com/img/blogger_logo_round_35.png"/>
+    </author>
+    <thr:total>0</thr:total>
+  </entry>
+</feed>

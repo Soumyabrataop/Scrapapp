@@ -45,17 +45,20 @@ scrapapp/
 ## Installation
 
 1. Clone the repository:
+
 ```bash
 git clone https://github.com/Soumyabrataop/Scrapapp.git
 cd Scrapapp
 ```
 
 2. Install dependencies:
+
 ```bash
 npm install
 ```
 
 3. Set up environment variables (for blog management feature):
+
 ```bash
 # Create a .env file in the root directory
 DATABASE_ID=your_notion_database_id
@@ -74,6 +77,7 @@ NOTION_API_KEY=your_notion_api_key
 ### API Endpoints
 
 #### GET RSS Feed
+
 ```
 POST /api/getrss
 Content-Type: application/json
@@ -84,6 +88,7 @@ Content-Type: application/json
 ```
 
 #### Convert RSS to XML
+
 ```
 POST /api/rsstoxml
 Content-Type: application/json
@@ -94,6 +99,7 @@ Content-Type: application/json
 ```
 
 #### Get Blog List (Notion Integration)
+
 ```
 GET /api/getblog
 ```
@@ -101,18 +107,22 @@ GET /api/getblog
 ## Features in Detail
 
 ### RSS Processing
+
 - Validates Blogger URLs for proper format
 - Fetches RSS feeds from Blogger's standard endpoint (`/feeds/posts/default?alt=rss`)
 - Processes multiple blog posts (limited to 5 most recent)
 
 ### XML Generation
+
 - Creates properly formatted Atom feed XML
 - Includes blog metadata, settings, and post content
 - Handles HTML entities and special characters
 - Converts emojis to Unicode HTML entities for XML compatibility
 
 ### Emoji Handling
+
 The application includes sophisticated emoji processing:
+
 - Detects emojis using comprehensive regex patterns
 - Converts emojis to Unicode code points
 - Transforms code points to HTML entities (e.g., `😀` becomes `&#128512;`)
@@ -138,6 +148,7 @@ vercel --prod
 ## Configuration
 
 ### Settings.json
+
 The `settings.json` file contains default blog settings that are included in the generated XML:
 
 ```json
@@ -151,6 +162,7 @@ The `settings.json` file contains default blog settings that are included in the
 ## Error Handling
 
 The application includes comprehensive error handling:
+
 - URL validation (HTTPS and .blogspot.com requirements)
 - Network request error handling
 - XML parsing error recovery
