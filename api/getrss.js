@@ -59,7 +59,7 @@ module.exports = async (req, res) => {
           allPostEntries = [];
         }
         // Get total results from the feed header, if it exists
-        totalPostsInFeed = parseInt(firstFeedData.feed['openSearch:totalResults']._, 10) || 0;
+        totalPostsInFeed = parseInt(firstFeedData.feed['openSearch:totalResults']?._, 10) || 0;
       }
 
       const entries = parsedData.feed.entry;
