@@ -11,11 +11,7 @@ function isPostEntry(entry) {
   if (!entry || !entry.link) {
     return false;
   }
-
-  // The 'link' property can be an object or an array if multiple link tags exist.
   const links = Array.isArray(entry.link) ? entry.link : [entry.link];
-
-  // A post entry will always have a link to the public HTML page.
   return links.some(
     (link) => link.$ && link.$.rel === "alternate" && link.$.type === "text/html"
   );
@@ -33,8 +29,9 @@ module.exports = async (req, res) => {
       : `${url}/feeds/posts/default`;
 
     let startIndex = 1;
-    const maxResults = 500; // Fetch max allowed to minimize requests
+    const maxResults = 500;
     let allPostEntries = [];
+    let nonPostEntries = [];
     let firstFeedData;
 
     while (true) {
@@ -53,46 +50,56 @@ module.exports = async (req, res) => {
         explicitArray: false,
       });
 
-      const entries = parsedData.feed && parsedData.feed.entry ? (Array.isArray(parsedData.feed.entry) ? parsedData.feed.entry : [parsedData.feed.entry]) : [];
+      if (!parsedData.feed) {
+        // If the feed is empty or malformed, break.
+        if (!firstFeedData) {
+            // If this was the very first fetch, send back an empty feed.
+            return res.status(200).send('<?xml version="1.0" encoding="UTF-8"?><feed/>');
+        }
+        break;
+      }
+
+      const entries = parsedData.feed.entry ? (Array.isArray(parsedData.feed.entry) ? parsedData.feed.entry : [parsedData.feed.entry]) : [];
 
       if (!firstFeedData) {
         // On the first fetch, we store the main feed structure.
         firstFeedData = { ...parsedData };
-        // We also grab the posts from this first page.
+        // And we separate the post entries from the non-post entries.
+        nonPostEntries = entries.filter(entry => !isPostEntry(entry));
         allPostEntries = entries.filter(isPostEntry);
       } else {
-        // On subsequent pages, we only care about the post entries.
+        // On subsequent pages, we only care about post entries.
+        // Non-post entries like settings are only in the first page of a full feed.
         const postEntries = entries.filter(isPostEntry);
         allPostEntries = allPostEntries.concat(postEntries);
       }
 
-      // Determine if we should stop paginating.
-      // The 'next' link is the most reliable way to know if there's a next page.
-      const nextLink = parsedData.feed.link && (Array.isArray(parsedData.feed.link) ? parsedData.feed.link : [parsedData.feed.link]).find(l => l.$.rel === 'next');
+      const nextLink = (Array.isArray(parsedData.feed.link) ? parsedData.feed.link : [parsedData.feed.link]).find(l => l && l.$ && l.$.rel === 'next');
       if (!nextLink) {
-        break;
+        break; // No more pages.
       }
 
       startIndex += maxResults;
     }
 
     if (firstFeedData) {
-      // Replace the entries in our stored feed structure with the complete list of posts.
-      firstFeedData.feed.entry = allPostEntries;
+      // Reconstruct the feed with the non-post entries first, then all post entries.
+      firstFeedData.feed.entry = nonPostEntries.concat(allPostEntries);
 
       // Update the total results count to be accurate.
       if (firstFeedData.feed["openSearch:totalResults"]) {
-        firstFeedData.feed["openSearch:totalResults"] = allPostEntries.length.toString();
+        firstFeedData.feed["openSearch:totalResults"]._ = allPostEntries.length.toString();
       }
 
-      const builder = new Builder();
+      const builder = new Builder({
+          renderOpts: { 'pretty': true, 'indent': '  ', 'newline': '\n' },
+          xmldec: { 'version': '1.0', 'encoding': 'UTF-8' }
+      });
       const xml = builder.buildObject(firstFeedData);
       res.status(200).send(xml);
     } else {
-      // This case handles if the initial fetch fails or the feed is completely empty.
-      const builder = new Builder();
-      const emptyFeedXml = builder.buildObject({ feed: {} });
-      res.status(200).send(emptyFeedXml);
+      // This case should ideally not be reached due to the check above, but as a fallback.
+      res.status(200).send('<?xml version="1.0" encoding="UTF-8"?><feed/>');
     }
   } catch (error) {
     console.error("Fetch Error:", error.message, error.stack);
