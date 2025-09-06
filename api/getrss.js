@@ -31,8 +31,8 @@ module.exports = async (req, res) => {
     let startIndex = 1;
     const maxResults = 500;
     let allPostEntries = [];
-    let nonPostEntries = [];
-    let firstFeedData;
+    let feedMetadata = {};
+    let hasFetchedOnce = false;
 
     while (true) {
       const paginatedUrl = `${fullUrl}?start-index=${startIndex}&max-results=${maxResults}&alt=atom`;
@@ -40,9 +40,12 @@ module.exports = async (req, res) => {
 
       if (!response.ok) {
         console.error(`Failed to fetch RSS feed from ${paginatedUrl}. Status: ${response.status}`);
-        return res
-          .status(response.status)
-          .json({ error: "Failed to fetch RSS feed" });
+        // If the first fetch fails, we can't proceed.
+        if (!hasFetchedOnce) {
+            return res.status(response.status).json({ error: "Failed to fetch initial RSS feed" });
+        }
+        // If a subsequent fetch fails, we can just stop and proceed with what we have.
+        break;
       }
 
       const data = await response.text();
@@ -51,28 +54,22 @@ module.exports = async (req, res) => {
       });
 
       if (!parsedData.feed) {
-        // If the feed is empty or malformed, break.
-        if (!firstFeedData) {
-            // If this was the very first fetch, send back an empty feed.
+        if (!hasFetchedOnce) {
             return res.status(200).send('<?xml version="1.0" encoding="UTF-8"?><feed/>');
         }
         break;
       }
 
-      const entries = parsedData.feed.entry ? (Array.isArray(parsedData.feed.entry) ? parsedData.feed.entry : [parsedData.feed.entry]) : [];
-
-      if (!firstFeedData) {
-        // On the first fetch, we store the main feed structure.
-        firstFeedData = { ...parsedData };
-        // And we separate the post entries from the non-post entries.
-        nonPostEntries = entries.filter(entry => !isPostEntry(entry));
-        allPostEntries = entries.filter(isPostEntry);
-      } else {
-        // On subsequent pages, we only care about post entries.
-        // Non-post entries like settings are only in the first page of a full feed.
-        const postEntries = entries.filter(isPostEntry);
-        allPostEntries = allPostEntries.concat(postEntries);
+      if (!hasFetchedOnce) {
+        // From the first page, store the feed-level metadata. We will reuse this.
+        feedMetadata = { ...parsedData.feed };
+        delete feedMetadata.entry; // We will build our own entry list.
+        hasFetchedOnce = true;
       }
+
+      const entries = parsedData.feed.entry ? (Array.isArray(parsedData.feed.entry) ? parsedData.feed.entry : [parsedData.feed.entry]) : [];
+      const postEntries = entries.filter(isPostEntry);
+      allPostEntries = allPostEntries.concat(postEntries);
 
       const nextLink = (Array.isArray(parsedData.feed.link) ? parsedData.feed.link : [parsedData.feed.link]).find(l => l && l.$ && l.$.rel === 'next');
       if (!nextLink) {
@@ -82,25 +79,38 @@ module.exports = async (req, res) => {
       startIndex += maxResults;
     }
 
-    if (firstFeedData) {
-      // Reconstruct the feed with the non-post entries first, then all post entries.
-      firstFeedData.feed.entry = nonPostEntries.concat(allPostEntries);
+    // Now, build a new, clean feed from scratch.
+    // It will contain the original feed's metadata, but only the post entries.
+    const finalFeedObject = {
+        feed: {
+            ...feedMetadata,
+            entry: allPostEntries
+        }
+    };
 
-      // Update the total results count to be accurate.
-      if (firstFeedData.feed["openSearch:totalResults"]) {
-        firstFeedData.feed["openSearch:totalResults"]._ = allPostEntries.length.toString();
-      }
-
-      const builder = new Builder({
-          renderOpts: { 'pretty': true, 'indent': '  ', 'newline': '\n' },
-          xmldec: { 'version': '1.0', 'encoding': 'UTF-8' }
-      });
-      const xml = builder.buildObject(firstFeedData);
-      res.status(200).send(xml);
-    } else {
-      // This case should ideally not be reached due to the check above, but as a fallback.
-      res.status(200).send('<?xml version="1.0" encoding="UTF-8"?><feed/>');
+    // Update the total results count to be accurate for posts.
+    if (finalFeedObject.feed["openSearch:totalResults"]) {
+        finalFeedObject.feed["openSearch:totalResults"]._ = allPostEntries.length.toString();
     }
+
+    const builder = new Builder({
+        renderOpts: { 'pretty': false }, // Blogger expects a compact format.
+        xmldec: { 'version': '1.0', 'encoding': 'UTF-8' },
+        headless: true // To avoid a double XML declaration if the builder adds one.
+    });
+
+    let xml = builder.buildObject(finalFeedObject);
+
+    // Add the xml-stylesheet processing instruction which the builder doesn't support.
+    const stylesheet = '<?xml-stylesheet href="https://www.blogger.com/styles/atom.css" type="text/css"?>';
+    // The builder might add its own XML declaration, so we ensure there's only one.
+    if (xml.startsWith('<?xml')) {
+        xml = xml.substring(xml.indexOf('?>') + 2);
+    }
+    const finalXml = `<?xml version='1.0' encoding='UTF-8'?>\n${stylesheet}\n${xml}`;
+
+    res.status(200).send(finalXml);
+
   } catch (error) {
     console.error("Fetch Error:", error.message, error.stack);
     res.status(500).json({ error: "Internal Server Error" });
