@@ -139,7 +139,7 @@ async function extractRssInfo(atomData) {
       return rv;
     }
 
-    const atomEntries = itemsArray.map((item) => {
+    const atomEntries = itemsArray.slice(0, 5).map((item) => {
       const id = item.id || "";
       const postId = id.split(".post-")[1];
       let content =
