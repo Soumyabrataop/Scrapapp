@@ -90,7 +90,9 @@ module.exports = async (req, res) => {
       res.status(200).send(xml);
     } else {
       // This case handles if the initial fetch fails or the feed is completely empty.
-      res.status(200).send('<?xml version="1.0" encoding="UTF-8"?><feed/>');
+      const builder = new Builder();
+      const emptyFeedXml = builder.buildObject({ feed: {} });
+      res.status(200).send(emptyFeedXml);
     }
   } catch (error) {
     console.error("Fetch Error:", error.message, error.stack);
